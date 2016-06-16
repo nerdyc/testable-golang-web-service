@@ -1,5 +1,3 @@
-# An Easily Tested, SQL-backed JSON Web Service in Go.
-
 This repo demonstrates how to write an easily-tested JSON web service in
 Go, with a PostgreSQL database. [It's a companion to a blog post I wrote](http://nerdyc.com/blog/2016/06/16/testing-web-apps-end-to-end-in-go/).
 
