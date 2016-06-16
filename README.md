@@ -22,6 +22,14 @@ Here's the gist of how tests work:
 
 Dive in and look at the tests, or [read the blog post for more detail](http://nerdyc.com/blog/2016/06/16/testing-web-apps-end-to-end-in-go/).
  
+## Running the Tests
+
+Tests are run via `go test`, just like any other Go project. However, the tests require a PostgreSQL database. The database URL is passed in via the `DATABASE_URL` environment variable, like this:
+
+```bash
+DATABASE_URL="postgres://username@localhost:5432/service_test?sslmode=disable" go test
+```
+
 ## Contact Me!
 
 I'd love to know if this helps you! I'm [@nerdyc](https://twitter.com/nerdyc) on Twitter.
